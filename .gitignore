@@ -1,0 +1,11 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/Nancy.App/bin
+/Nancy.App/node_modules
+/Nancy.App/obj/Debug
+/packages
+/Nancy.App/Properties
+/Nancy.App/Web.Release.config
+/Nancy.App/Web.Debug.config
