@@ -10,7 +10,7 @@ var core_1 = require("@angular/core");
 var router_1 = require("@angular/router");
 //Modules
 var core_modules_1 = require("./core/core.modules");
-var features_modules_1 = require("./features/features.modules");
+var home_module_1 = require("./features/home/home.module");
 var ng_bootstrap_1 = require("@ng-bootstrap/ng-bootstrap");
 //Components
 var app_component_1 = require("./app.component");
@@ -28,9 +28,9 @@ AppModule = __decorate([
         ],
         imports: [
             core_modules_1.CoreModule,
-            features_modules_1.FeaturesModule,
+            home_module_1.HomeModule,
             ng_bootstrap_1.NgbModule.forRoot(),
-            router_1.RouterModule.forRoot(app_routing_1.AppRoutes, { useHash: false })
+            router_1.RouterModule.forRoot(app_routing_1.AppRoutes, { enableTracing: true })
         ],
         bootstrap: [
             app_component_1.AppComponent

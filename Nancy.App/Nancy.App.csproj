@@ -121,11 +121,11 @@
     <Content Include="src\app\core\container\container.component.css" />
     <Content Include="src\app\core\container\container.component.html" />
     <Content Include="src\app\features\home\home.compoment.css" />
+    <Content Include="src\app\features\home\home.component.html" />
     <Content Include="tsconfig.json" />
     <Content Include="tslint.json" />
     <Content Include=".editorconfig" />
     <Content Include="bs-config.json" />
-    <Content Include="src\app\features\home\home.compoment.html" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -165,8 +165,8 @@
     </TypeScriptCompile>
     <TypeScriptCompile Include="src\app\core\header\header.component.ts" />
     <TypeScriptCompile Include="src\app\core\sidebar\sidebar.component.ts" />
-    <TypeScriptCompile Include="src\app\features\features.modules.ts" />
     <TypeScriptCompile Include="src\app\features\home\home.compoment.ts" />
+    <TypeScriptCompile Include="src\app\features\home\home.module.ts" />
     <TypeScriptCompile Include="src\main.ts" />
   </ItemGroup>
   <ItemGroup />
