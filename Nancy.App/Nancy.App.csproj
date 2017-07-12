@@ -118,10 +118,14 @@
   <ItemGroup>
     <Content Include="packages.config" />
     <Content Include="package.json" />
+    <Content Include="src\app\core\container\container.component.css" />
+    <Content Include="src\app\core\container\container.component.html" />
+    <Content Include="src\app\features\home\home.compoment.css" />
     <Content Include="tsconfig.json" />
     <Content Include="tslint.json" />
     <Content Include=".editorconfig" />
     <Content Include="bs-config.json" />
+    <Content Include="src\app\features\home\home.compoment.html" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -154,11 +158,14 @@
   <ItemGroup>
     <TypeScriptCompile Include="src\app\app.component.ts" />
     <TypeScriptCompile Include="src\app\app.module.ts" />
+    <TypeScriptCompile Include="src\app\app.routing.ts" />
+    <TypeScriptCompile Include="src\app\core\container\container.component.ts" />
     <TypeScriptCompile Include="src\app\core\core.modules.ts">
       <SubType>Code</SubType>
     </TypeScriptCompile>
     <TypeScriptCompile Include="src\app\core\header\header.component.ts" />
     <TypeScriptCompile Include="src\app\core\sidebar\sidebar.component.ts" />
+    <TypeScriptCompile Include="src\app\features\home\home.compoment.ts" />
     <TypeScriptCompile Include="src\main.ts" />
   </ItemGroup>
   <ItemGroup />

@@ -9,3 +9,7 @@
 /Nancy.App/Properties
 /Nancy.App/Web.Release.config
 /Nancy.App/Web.Debug.config
+/Nancy.App/src/app/features/home/home.compoment.js.map
+/Nancy.App/src/app/features/home/home.compoment.js
+/Nancy.App/src/app/app.routing.js.map
+/Nancy.App/src/app/app.routing.js
