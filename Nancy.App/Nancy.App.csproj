@@ -165,6 +165,7 @@
     </TypeScriptCompile>
     <TypeScriptCompile Include="src\app\core\header\header.component.ts" />
     <TypeScriptCompile Include="src\app\core\sidebar\sidebar.component.ts" />
+    <TypeScriptCompile Include="src\app\features\features.modules.ts" />
     <TypeScriptCompile Include="src\app\features\home\home.compoment.ts" />
     <TypeScriptCompile Include="src\main.ts" />
   </ItemGroup>

@@ -3,6 +3,7 @@ import { RouterModule } from '@angular/router';
 
 //Modules
 import { CoreModule } from './core/core.modules';
+import { FeaturesModule } from './features/features.modules';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 //Components
@@ -18,6 +19,7 @@ import { AppRoutes } from './app.routing'
     ],
     imports: [
         CoreModule,
+        FeaturesModule,
         NgbModule.forRoot(),
         RouterModule.forRoot(AppRoutes, { useHash: false })
     ],
